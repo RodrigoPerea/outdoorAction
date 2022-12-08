@@ -1,4 +1,74 @@
-/* rodrgio */
+*,
+*::before ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* Fordi vi vil gerne kunne tilføje border box til hmtl dokumentet.  */
+}
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+/*denne centrer min bolle ting*/
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.ac-item {
+  background-color: rgb(3, 55, 49);
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+.acc-lin {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: #204842;
+  width: 100%; /* Så området er klikbart */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.acc-lin icon-icon {
+  color: blueviolet;
+  padding: 0.5rem;
+}
+.acc-lin .remove {
+  display: none;
+}
+.svar {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.4rem;
+  /*  background-color: #212838; */
+}
+.svar::before {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 90%;
+  /* background-color: #8fc460; */
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%); /* sørger for den blri i midten */
+}
+
+/* 
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +98,48 @@ img {
 .tabs {
   display: flex;
   border: 1px solid var(--grey);
-}
+  overflow: hidden; /* Så min tkest ikke går længere til ventre når dne slider */
+/* }
 .tab-links {
+  width: 25%;
+  z-index: 1; 
+}/* Gemmer min tekst bag tabsne når den slider ud fra ventre til højre */
+
+/* 
+button.tab-link {
+  padding: 1.2rem;
+  width: 100%;
+  font: 1.6rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--green);
 }
+.active {
+  background-color: var(--white);
+}
+.tab-contents {
+  padding: 1rem;
+}
+.tab-content {
+  display: none;
+  animation: slide-right 0.5s ease 1;
+}
+.spørgsmål1 {
+  display: block; 
+}/* Sætter den som defult tila t blvie vist */
+/*
+@keyframes slide-right {
+  /* slider mit indhold fra ventre til højre */
+/*   0% {
+    transform: translateX(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 600px) {
+  .tab-links {
+    width: 50%;
+  }
+}
+*/ ;

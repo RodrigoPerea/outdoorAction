@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: greenyellow;
+  font-size: 15px;
+}
+.container {
+  width: 90%;
+  margin: 55px auto;
+}
+.kontakt-box {
+  background-color: white;
+  display: flex;
+}
+.kontakt-formular {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.kontakt-aditionel {
+  flex-basis: 40%;
+  padding: 40px;
+  background: gray;
+  color: white;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.container p {
+  margin-bottom: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-gruppe {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  border: 1px solid gray;
+  outline: none;
+  padding: 15px;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+}
+button {
+  background: green;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  height: 40px;
+  border-radius: 22px;
+  margin-top: 20px;
+  font-weight: bold;
+  box-shadow: 0px 5px 15px 0px rgba(0, 181, 27, 0.3);
+}
+.kontakt-formular h4 {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.kontakt-aditionel h4 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+tr td:first-child {
+  /* Så dne kun adder padding å den første data i rækken. altså, "email", "telefon" etc. */
+  padding-right: 20px;
+}
+tr td {
+  padding-top: 15px;
+}

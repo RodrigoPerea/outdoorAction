@@ -32,7 +32,7 @@ section {
 }
 .acc-lin {
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #204842;
   width: 100%; /* Så området er klikbart */
@@ -41,8 +41,8 @@ section {
   justify-content: space-between;
   padding: 1rem 0;
 }
-.acc-lin icon-icon {
-  color: blueviolet;
+.acc-lin .add {
+  color: rgb(255, 255, 255);
   padding: 0.5rem;
 }
 .acc-lin .remove {
@@ -55,6 +55,7 @@ section {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1.4rem;
   /*  background-color: #212838; */
+  transition: max-height 650ms;
 }
 .svar::before {
   content: "";
@@ -65,6 +66,21 @@ section {
   top: 50%;
   left: 0;
   transform: translateY(-50%); /* sørger for den blri i midten */
+}
+.svar p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+.ac-item:target .svar {
+  /* når den blive rklikken, vil svar inden i item, vil have en bestemt stil */
+  max-height: 20rem;
+}
+.ac-item:target .acc-lin .add {
+  display: none;
+}
+.ac-item:target .acc-lin .remove {
+  display: block;
 }
 
 /* 

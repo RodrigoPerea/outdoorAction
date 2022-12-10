@@ -8,6 +8,13 @@ html {
   font-size: 10px;
   box-sizing: border-box;
 }
+
+/* faq overksift */
+.faq-head {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /*denne centrer min bolle ting*/
 section {
   width: 100%;
@@ -17,7 +24,7 @@ section {
   align-items: center;
   justify-content: center;
 }
-.container {
+.containt {
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;

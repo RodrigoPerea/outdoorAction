@@ -1,1 +1,203 @@
 /*dana*/
+body {
+  background-color: #378736;
+}
+
+.imgcont > img {
+  max-width: 300px;
+  max-height: 180px;
+}
+
+.inspiration {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  /*   margin-left: 10em;
+  margin-right: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em; */
+  background-color: #fffffa;
+  width: 100vw;
+  padding-block: 5em;
+}
+
+.para1 {
+  max-width: 260px;
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  max-width: 300px;
+  font-family: cheap-pine-sans, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  color: #378736;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: cheddar-gothic-rough, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+  color: #fffffa;
+}
+
+.imgcont2 > img {
+  width: 237.5px;
+  height: 237.5px;
+  object-fit: cover;
+}
+.imgcont2 {
+  display: flex;
+  justify-content: center;
+}
+
+/*  SOMMERFEST FOR PER’S VVS */
+
+.pers-sommerfest {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+
+.pers-sommerfest > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/*  TELTET UNDER BØGEKRONERNE */
+.teltet_bøgekronerne {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.teltet_bøgekronerne > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/* SEAT SALGSKICKOFF */
+
+.seat_kickoff {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.seat_kickoff > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/* 60 ÅRS FØDSELSDAG I DET FRI  */
+.fødselsdag {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.fødselsdag > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/* NORDEA JULEARRANGEMENT  */
+.nordea {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.nordea > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+/* JAMIE’S POLTERABEND  */
+.polterabend {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.polterabend > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+/* FTZ AFDELING PÅ UDFLUGT  */
+.ftz {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.ftz > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+/* EVENT DAGE HOS HARDI INTERNATIONAL A/S  */
+.event {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #fffffa;
+}
+.event > p {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3em;
+  margin-right: 3em;
+}

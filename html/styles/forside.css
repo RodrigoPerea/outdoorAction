@@ -1,1 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#nav_logo {
+  width: 108px;
+  aspect-ratio: 1/1;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+nav {
+  width: 100vw;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  background-color: rgba(0, 0, 0, 0.372);
+  backdrop-filter: blur(5px);
+  z-index: 10000;
+}
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  list-style: none;
+  margin-block: auto;
+}
+li {
+}
+li > a {
+  color: white;
+  font-family: ligurino, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+/* galleri */
+#forside_galleri {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#forside_galleri > img:hover {
+  scale: 1.1;
+  transition-duration: 0.3s;
+  z-index: 100;
+}
+#forside_galleri > img {
+  scale: 1;
+  transition-duration: 0.3s;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#atv_safari_billede {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+}
+#rapelling_billede {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+#julefrokost_billede {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2;
+}
+#sommerfest_billede {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+#firmatur_billede {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+/* galleri */
 /*Malthe*/

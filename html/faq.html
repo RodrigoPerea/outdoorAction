@@ -7,51 +7,136 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles/faq.css" />
+    <link rel="stylesheet" href="styles/faq.css">
+    <!-- <link rel="stylesheet" href="faq.js"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <title>FAQ</title>
 </head>
 
 <body>
-    <div class="contatiner">
-        <div class="text">
-            <h1>Vertical tabs</h1>
-            <p>information</p>
-        </div>
+    <section>
+        <div class="containt">
+            <div class="faq-head">
+                <h1>Ofte stillede spørgsmål</h1>
+                <h3>Her kan du find evsar på de fleste srpøgsmål. <br> der stadig være nogle ting du er i tivel om, er
 
-        <div class="tabs">
-            <div class="tab-links">
-                <button class="tab-link">spørgsmål 1</button>
-                <button class="tab-link">spørgsmål 2</button>
-                <button class="tab-link">spørgsmål 3</button>
-                <button class="tab-link">spørgsmål 4</button>
+                    du
+                    altid vewlkommen tila t sende os en mail, eller give os et klad. Så sidder en af vores instruktører
+                    klar til at hjælpe dig.</h3>
             </div>
-            <!-- tab inhold -->
-            <div class="tab-contents">
-                <div class="tab-content spørgsmål1">
-                    <h3>spørgsmål 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iste voluptatibus laborum
-                        asperiores vero? Nihil laboriosam inventore quaerat voluptatibus nam!</p>
+            <div class="ac">
+                <!-- spørgsmål 1 -->
+                <div class="ac-item" id="sp1">
+                    <a class="acc-lin" href="#sp1">
+                        Er jeg forsikret under ATV-kørsel?
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        Al kørsel er på eget ansvar. Inden kørsel underskrives erklæring om ansvar, instruktion og
+                        selvrisiko.
+                    </div>
                 </div>
-                <div class="tab-content spørgsmål2">
-                    <h3>spørgsmål 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iste voluptatibus laborum
-                        asperiores vero? Nihil laboriosam inventore quaerat voluptatibus nam!</p>
+                <!-- spørgsmål 2 -->
+                <div class="ac-item" id="sp2">
+                    <a class="acc-lin" href="#sp2">
+                        Er der ekstra udgifter jeg skal være opmærksom på?
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        Vi gør opmærksom på, at der er et startgebyr på 3.995,- for den første time (inkl. patroner,
+                        lerduer, ekstern instruktør) + 1.545,- pr. løbende time herefter.
+                        Rapelling & højrebsbanen. Vi gør opmærksom på, at priserne starter fra 2.800,-.
+                    </div>
                 </div>
-                <div class="tab-content spørgsmål3">
-                    <h3>spørgsmål 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iste voluptatibus laborum
-                        asperiores vero? Nihil laboriosam inventore quaerat voluptatibus nam!</p>
+                <!-- spørgsmål 3 -->
+                <div class="ac-item" id="sp3">
+                    <a class="acc-lin" href="#sp3">
+                        Grupper (+10 personer)
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        Det er ikke muligt at booke til gruppeaktiviteter under 10 personer.
+                        Herunder finder du vores aktiviteter til grupper på mere end 10 personer. Alle deltagere for
+                        mulighed for at køre på ATV, men der bliver skiftet løbende mens andre fx. prøver øksekast,
+                        bueskydning eller lign.
+                    </div>
                 </div>
-                <div class="tab-content spørgsmål4">
-                    <h3>spørgsmål 4</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iste voluptatibus laborum
-                        asperiores vero? Nihil laboriosam inventore quaerat voluptatibus nam!</p>
+                <!-- spørgsmål 4 -->
+                <div class="ac-item" id="sp4">
+                    <a class="acc-lin" href="#sp4">
+                        Gi' en du holder af et gavekort
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        giv et gavekort: Kender du en der fortjener at komme på ATV safari, så har du også muligheden
+                        for at give et gavekort. Beløbet kan du frit vælge og gavekortet kan indløses i 12 måneder efter
+                        købsdato.
+                    </div>
+                </div>
+                <!-- spørgsmål 5 -->
+                <div class="ac-item" id="sp5">
+                    <a class="acc-lin" href="#sp5">
+                        Kan i hjælpe med transport?
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        Vi kan være behælpelig emd transport fra hvalsø station.
+                    </div>
+                </div>
+                <!-- spørgsmål 6 -->
+                <div class="ac-item" id="sp6">
+                    <a class="acc-lin" href="#sp6">
+                        Hvor gammel skal man være for at køre ATV?
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        Man skal være 18 år for at køre ATV. Men man må gerne kør emed som passager ned til 6 års
+                        alderen. Husk at købe en passager billet.
+                    </div>
+                </div>
+                <!-- spørgsmål 7 -->
+                <div class="ac-item" id="sp7">
+                    <a class="acc-lin" href="#sp7">
+                        Vigitg information omo ATV-safari
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        (1-7 deltagere)Booking er muligt indtil kl. 10.00 dagen før event.
+                        Tider til ATV Safari ligges op til 2 måneder frem.
+                        Man skal være fyldt min. 16 år for at køre alene på vores ATV'er.
+                        Børn i følge med voksne skal være fyldt min. 6 år.
+                        BEMÆRK! Denne kalender viser kun tider til ATV Safari
+                        for private 1-7 personer.
+                        Er du en virksomhed eller gruppe på 10+ personer -
+                        Kontakt os pr. Mail eller telefon.
+                    </div>
+                </div>
+                <!-- spørgsmål 8 -->
+                <div class="ac-item" id="sp8">
+                    <a class="acc-lin" href="#sp8">
+                        Er der mulighed for overnatning?
+                        <ion-icon name="add-circle-outline" class="add"></ion-icon>
+                        <ion-icon name="remove-circle-outline" class="remove"></ion-icon>
+                    </a>
+                    <div class="svar">
+                        ja. Der er overnatningsmuligheder på Sonnerup Gård gods. Ring eller skriv til os for et samlet
+                        tilbud om overnating.
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

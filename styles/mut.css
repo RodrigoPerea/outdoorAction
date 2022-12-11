@@ -109,7 +109,7 @@ address > a {
 }
 address > a > p {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 footer > :last-child{
     padding-left: 5rem;
@@ -122,12 +122,17 @@ margin-bottom: 1.5rem;
 
 #some_icons{
     display: flex;
-    justify-content: space-evenly;
+gap: 2rem;
 }
 #ig_icon{
-    color: #17171a;
-    content: "icon";
+  filter: opacity(50%);
     height: 2rem;
     aspect-ratio: 1/1;
 }
+#fb_icon{
+filter: opacity(50%);
+    height: 2rem;
+    aspect-ratio: 1/1;
+}
+
 /* footer */

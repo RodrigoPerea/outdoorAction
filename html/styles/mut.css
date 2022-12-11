@@ -12,3 +12,31 @@ header
 farver
 
 */
+html{
+    --custom-green: #378736;
+    --custom-blue: #405A80;
+    --custom-yellow:#E6C745;
+    --custom-black:#17171A;
+    --custom-white:#FFFFFA;
+}
+.headlinetext{
+    font-size: 2rem;
+    font-family: ligurino, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+p{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.bannertext{
+    font-family: tripper, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.linktext{
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

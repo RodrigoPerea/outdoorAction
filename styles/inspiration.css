@@ -1,6 +1,12 @@
+/* Malte */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 /*dana*/
 body {
-  background-color: #378736;
+  background-color: var(--custom-green);
 }
 
 .imgcont > img {
@@ -17,8 +23,8 @@ body {
   margin-right: 10em;
   padding-top: 5em;
   padding-bottom: 5em; */
-  background-color: #fffffa;
-  width: 100vw;
+  background-color: var(--custom-white);
+  width: 100%;
   padding-block: 5em;
 }
 
@@ -35,7 +41,7 @@ h3 {
   font-weight: 400;
   font-size: 30px;
   font-style: normal;
-  color: #378736;
+  color: var(--custom-green);
 }
 
 h2 {
@@ -45,7 +51,7 @@ h2 {
   font-weight: 400;
   font-size: 40px;
   font-style: normal;
-  color: #fffffa;
+  color: var(custom-white);
 }
 
 .imgcont2 > img {
@@ -67,7 +73,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 
 .pers-sommerfest > p {
@@ -86,7 +92,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .teltet_bøgekronerne > p {
   font-family: articulat-cf, sans-serif;
@@ -105,7 +111,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .seat_kickoff > p {
   font-family: articulat-cf, sans-serif;
@@ -123,7 +129,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .fødselsdag > p {
   font-family: articulat-cf, sans-serif;
@@ -141,7 +147,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .nordea > p {
   font-family: articulat-cf, sans-serif;
@@ -158,7 +164,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .polterabend > p {
   font-family: articulat-cf, sans-serif;
@@ -175,7 +181,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .ftz > p {
   font-family: articulat-cf, sans-serif;
@@ -192,7 +198,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(custom-white);
 }
 .event > p {
   font-family: articulat-cf, sans-serif;

@@ -114,6 +114,33 @@ img {
   flex-direction: column;
   gap: 3rem;
   background-color: var(--custom-white);
+  color: var(--custom-black);
 }
 /* forklarende tekst */
+
+/* aktivitetstyper */
+#forside_aktivitetstyper{
+  background-color: var(--custom-green);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 5rem;
+  padding-inline: 15rem;
+}
+#forside_aktivitetstyper>div{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+}
+#forside_aktivitetstyper>h2{
+  grid-column: 1/ span 2;
+  justify-self: center;
+  color: var(--custom-white);
+  margin-block: 2rem;
+}
+#forside_aktivitetstyper>div>a{
+  color: var(--custom-white);
+text-decoration: none;
+}
+/* aktivitetstyper */
 /*Malthe*/

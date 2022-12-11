@@ -1,83 +1,133 @@
 /*
 
-Header: Malthe
-fonts 
-menu
-logo
 knapper
 headliner
-futter
 billedeframs
-header
-farver
 
 */
-html{
-    --custom-green: #378736;
-    --custom-blue: #405A80;
-    --custom-yellow:#E6C745;
-    --custom-black:#17171A;
-    --custom-white:#FFFFFA;
+html {
+  --custom-green: #378736;
+  --custom-blue: #405a80;
+  --custom-yellow: #e6c745;
+  --custom-black: #17171a;
+  --custom-white: #fffffa;
 }
-/* nav */
+/* menu */
 header {
-    min-height: 108px;
-    background-color: var(--custom-green);
-  }
-  #nav_logo {
-    background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
-    background-size: cover;
-    width: 108px;
-    aspect-ratio: 1/1;
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-  }
-  nav {
-    width: 100vw;
-    position: fixed;
-    display: grid;
-    grid-template-columns: 108px 1fr;
-    background-color: rgba(0, 0, 0, 0.372);
-    backdrop-filter: blur(5px);
-    z-index: 10000;
-  }
-  ul {
-    width: 100%;
+  min-height: 108px;
+  background-color: var(--custom-green);
+}
+.logo {
+  background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+nav{
+  width: 100vw;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  background-color: rgba(0, 0, 0, 0.372);
+  backdrop-filter: blur(5px);
+  z-index: 10000;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  list-style: none;
+  margin-block: auto;
+}
+nav a {
+  color: white;
+  font-family: ligurino, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+nav li:hover {
+  scale: 1.2;
+  transition-duration: 0.3s;
+  filter: drop-shadow(0 0 10px var(--custom-black));
+}
+nav li {
+  scale: 1;
+  transition-duration: 0.3s;
+}
+/* menu */
+
+/* fonts */
+.headlinetext {
+  font-size: 2.5rem;
+  font-family: ligurino, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+}
+.bannertext {
+  font-family: tripper, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7rem;
+}
+.linktext {
+  font-family: ligurino, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* fonts */
+
+/* footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  gap: 2rem;
+  background-color: var(--custom-white);
+}
+footer > :first-child {
+  background-color: var(--custom-blue);
+}
+address {
+  padding-block: 2rem;
+}
+address > a {
+  color: var(--custom-green);
+  text-decoration: none;
+}
+address > a > p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+footer > :last-child{
+    padding-left: 5rem;
+    padding: 2rem;
+}
+footer > :last-child > ul > li{
+list-style: none;
+margin-bottom: 1.5rem;
+}
+
+#some_icons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
-    list-style: none;
-    margin-block: auto;
-  }
-  li > a {
-    color: white;
-    font-family: ligurino, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.9rem;
-    text-decoration: none;
-  }
-  /* nav */
-.headlinetext{
-    font-size: 2rem;
-    font-family: ligurino, sans-serif;
-font-weight: 700;
-font-style: normal;
+    justify-content: space-evenly;
 }
-p{
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-font-weight: 500;
-font-style: normal;
+#ig_icon{
+    color: #17171a;
+    content: "icon";
+    height: 2rem;
+    aspect-ratio: 1/1;
 }
-.bannertext{
-    font-family: tripper, sans-serif;
-font-weight: 700;
-font-style: normal;
-}
-.linktext{
-    font-family: ligurino, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
+/* footer */

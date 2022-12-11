@@ -19,6 +19,47 @@ html{
     --custom-black:#17171A;
     --custom-white:#FFFFFA;
 }
+/* nav */
+header {
+    min-height: 108px;
+    background-color: var(--custom-green);
+  }
+  #nav_logo {
+    background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
+    background-size: cover;
+    width: 108px;
+    aspect-ratio: 1/1;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  nav {
+    width: 100vw;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    background-color: rgba(0, 0, 0, 0.372);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    list-style: none;
+    margin-block: auto;
+  }
+  li > a {
+    color: white;
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.9rem;
+    text-decoration: none;
+  }
+  /* nav */
 .headlinetext{
     font-size: 2rem;
     font-family: ligurino, sans-serif;

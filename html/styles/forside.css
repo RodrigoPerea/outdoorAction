@@ -7,7 +7,8 @@ body {
   max-width: 100vw;
   height: 100vh;
 }
-header {
+/* nav */
+/* header {
   min-height: 108px;
   background-color: var(--custom-green);
 }
@@ -45,7 +46,8 @@ li > a {
   font-style: normal;
   font-size: 1.9rem;
   text-decoration: none;
-}
+} */
+/* nav */
 /* galleri */
 figcaption {
   z-index: 1000;

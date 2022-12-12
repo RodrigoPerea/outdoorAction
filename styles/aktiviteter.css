@@ -4,7 +4,8 @@
 }
 body {
     margin: 0;
-    background-color: #FFFFFA;
+    background-image: url("assets_mathias/pattern.jpg");
+    background-size: cover;
 }
 
 header {
@@ -71,7 +72,7 @@ header {
     position: fixed;
     top: 16%;
     left: 8%;
-    background-color: #378736;
+background-image: url("assets_mathias/Artboard\ 1.png");
     color: #FFFFFA;
     transform: scale(0.1);
     transition: 0.1s;
@@ -80,6 +81,24 @@ header {
     justify-content:space-between;
     z-index: 50;
 }
+.atvpopup,
+.bowpopup,
+.buepopup,
+.lerduepopup,
+.øksepopup,
+.rapelpopup,
+.segwaypopup,
+.spydpopup,
+.højrebpopup h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFFFFA;
+    font-family: tripper, sans-serif;
+
+}
+
+
 .open-popup {
     visibility: visible;
     transform: scale(1);
@@ -97,13 +116,14 @@ h1 {
     text-align: center;
     font-weight: 900;
     font-size: 50px;
-    color: #FFFFFA
+    color: #405A80;
+    font-family: tripper, sans-serif;
 }
 h2 {
     font-size: 35px;
     padding-top: 100px;
     color: #FFFFFA;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: ligurino, sans-serif;
 }
 .container {
     width: 400px;
@@ -172,8 +192,8 @@ h2 {
     width: 100%;
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     grid-auto-flow: column;
     align-items: center;
 
@@ -233,6 +253,7 @@ a:hover {
 }
 p {
     font-size: 20px;
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
 }
 
 footer {

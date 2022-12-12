@@ -7,6 +7,55 @@ body {
     background-color: #405A80;
 }
 
+header {
+    min-height: 108px;
+    background-color: var(--custom-green);
+  }
+  .logo {
+    background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  nav{
+    width: 100vw;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    background-color: rgba(0, 0, 0, 0.372);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+  }
+  nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    list-style: none;
+    margin-block: auto;
+  }
+  nav a {
+    color: white;
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.9rem;
+    text-decoration: none;
+  }
+  nav li:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+    filter: drop-shadow(0 0 10px var(--custom-black));
+  }
+  nav li {
+    scale: 1;
+    transition-duration: 0.3s;
+  }
+
 .atvpopup,
 .bowpopup,
 .buepopup,
@@ -67,49 +116,49 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #bow {
-    background-image: url("bow-combat.png");
+    background-image: url("assets_mathias/bow-combat.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #lerdue {
-    background-image: url("due.png");
+    background-image: url("assets_mathias/due.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #bue {
-    background-image: url("bue.png");
+    background-image: url("assets_mathias/bue.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #økse {
-    background-image: url("økse.png");
+    background-image: url("assets_mathias/økse.png");
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 #rapel {
-    background-image: url("rapelling.png");
+    background-image: url("assets_mathias/rapelling.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #segway {
-    background-image: url("segway.png");
+    background-image: url("assets_mathias/segway.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #højreb {
-    background-image: url("sort-hvid.png");
+    background-image: url("assets_mathias/sort-hvid.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #spyd {
-    background-image: url("spyd.png");
+    background-image: url("assets_mathias/spyd.png");
     background-size: cover;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

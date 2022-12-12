@@ -5,7 +5,7 @@
 }
 
 html {
-/*   font-size: 10px; */
+  /*   font-size: 10px; */
   box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@ section {
   padding: 0 1.5rem;
 }
 .ac-item {
-  background-color: rgb(3, 55, 49);
+  background-color: #1d491c;
   border-radius: 0.4rem;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -41,7 +41,7 @@ section {
   font-size: 1.6rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: #204842;
+  background-color: #265f25;
   width: 100%; /* Så området er klikbart */
   display: flex;
   align-items: center;
@@ -73,9 +73,10 @@ section {
   top: 50%;
   left: 0;
   transform: translateY(-50%); /* sørger for den blri i midten */
+  color: white;
 }
 .svar p {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   font-size: 1.4rem;
   padding: 2rem;
 }
@@ -88,4 +89,14 @@ section {
 }
 .ac-item:target .acc-lin .remove {
   display: block;
+}
+
+/* fonts og srkift */
+h3 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  padding-top: 25px;
 }

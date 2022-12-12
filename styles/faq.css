@@ -1,11 +1,11 @@
-*,
-*::before ::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: inherit; /* Fordi vi vil gerne kunne tilføje border box til hmtl dokumentet.  */
 }
+
 html {
-  font-size: 10px;
+/*   font-size: 10px; */
   box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@ html {
 /*denne centrer min bolle ting*/
 section {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;

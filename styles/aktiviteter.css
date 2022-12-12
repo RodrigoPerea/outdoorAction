@@ -1,0 +1,240 @@
+/*Mathias*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #FFFFFA;
+}
+
+header {
+    min-height: 108px;
+    background-color: var(--custom-green);
+  }
+  .logo {
+    background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 1/1;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  nav{
+    width: 100vw;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 108px 1fr;
+    background-color: rgba(0, 0, 0, 0.372);
+    backdrop-filter: blur(5px);
+    z-index: 8;
+  }
+  nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    list-style: none;
+    margin-block: auto;
+  }
+.href_nav {
+    color: white;
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.9rem;
+    text-decoration: none;
+  }
+  nav li:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+    filter: drop-shadow(0 0 10px var(--custom-black));
+  }
+  nav li {
+    scale: 1;
+    transition-duration: 0.3s;
+  }
+
+.atvpopup,
+.bowpopup,
+.buepopup,
+.lerduepopup,
+.øksepopup,
+.rapelpopup,
+.segwaypopup,
+.spydpopup,
+.højrebpopup {
+    border-radius: 15px; 
+    width: 1200px;
+    height: 650px;
+    position: fixed;
+    top: 16%;
+    left: 8%;
+    background-color: #378736;
+    color: #FFFFFA;
+    transform: scale(0.1);
+    transition: 0.1s;
+    visibility: hidden;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 50;
+}
+.open-popup {
+    visibility: visible;
+    transform: scale(1);
+}
+.akt-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: max-content;
+    grid-gap: 50px;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFFFFA
+}
+h2 {
+    font-size: 35px;
+    padding-top: 100px;
+    color: #FFFFFA;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+    width: 400px;
+    height: 400px;
+}
+#atv {
+    background-image: url("assets_mathias/ATV.png");
+    background-size: cover;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bow {
+    background-image: url("assets_mathias/bow-combat.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#lerdue {
+    background-image: url("assets_mathias/due.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bue {
+    background-image: url("assets_mathias/bue.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#økse {
+    background-image: url("assets_mathias/økse.png");
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+#rapel {
+    background-image: url("assets_mathias/rapelling.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#segway {
+    background-image: url("assets_mathias/segway.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#højreb {
+    background-image: url("assets_mathias/sort-hvid.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#spyd {
+    background-image: url("assets_mathias/spyd.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.popup-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+    gap: 20px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    grid-auto-flow: column;
+    align-items: center;
+
+}
+.læs-mere {
+    padding: 10px 30px;
+    background: #378736;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 27px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.læs-mere:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
+.luk {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #405A80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    line-height: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 30px ;
+    color: darkblue;
+}
+.luk:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
+.container a {
+    margin-top: 50px;
+    padding: 10px 30px;
+    background: #405A80;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 27px;
+    text-decoration: none;
+}
+a:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
+p {
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}

@@ -29,7 +29,6 @@ header {
 nav .logo:hover {
   scale: 1.2;
   transition-duration: 0.3s;
-  filter: drop-shadow(0 0 10px var(--custom-black));
 }
 nav{
   width: 100%;

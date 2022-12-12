@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-header {
+/* header {
     min-height: 108px;
     background-color: var(--custom-green);
   }
@@ -38,7 +38,7 @@ header {
     grid-row: 1 / span 1;
     list-style: none;
     margin-block: auto;
-  }
+  } */
 .href_nav {
     color: white;
     font-family: ligurino, sans-serif;
@@ -47,7 +47,7 @@ header {
     font-size: 1.9rem;
     text-decoration: none;
   }
-  nav li:hover {
+/*   nav li:hover {
     scale: 1.2;
     transition-duration: 0.3s;
     filter: drop-shadow(0 0 10px var(--custom-black));
@@ -55,7 +55,7 @@ header {
   nav li {
     scale: 1;
     transition-duration: 0.3s;
-  }
+  } */
 
 .atvpopup,
 .bowpopup,

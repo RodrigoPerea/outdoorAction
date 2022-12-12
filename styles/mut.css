@@ -95,7 +95,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   gap: 2rem;
-  background-color: var(--custom-white);
+  background-color: var(--custom-e);
 }
 footer > :first-child {
   background-color: var(--custom-blue);

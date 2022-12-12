@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    padding-left: 1x;
+    margin: 0;
     background-color: #FFFFFA;
 }
 
@@ -189,6 +189,10 @@ h2 {
     border-radius: 27px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.læs-mere:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
 .luk {
     position: absolute;
     top: 15px;
@@ -206,6 +210,10 @@ h2 {
     font-size: 30px ;
     color: darkblue;
 }
+.luk:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
 .container a {
     margin-top: 50px;
     padding: 10px 30px;
@@ -219,6 +227,14 @@ h2 {
     border-radius: 27px;
     text-decoration: none;
 }
+a:hover {
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
 p {
     font-size: 20px;
+}
+
+footer {
+    margin-top: 30px;
 }

@@ -60,7 +60,7 @@ h2 {
     height: 400px;
 }
 #atv {
-    background-image: url("ATV.png");
+    background-image: url("assets_mathias/ATV.png");
     background-size: cover;
     justify-content: center;
     border-radius: 7px;

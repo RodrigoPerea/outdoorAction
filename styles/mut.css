@@ -16,6 +16,7 @@ html {
 header {
   min-height: 108px;
   background-color: var(--custom-green);
+  padding-inline: 2rem;
 }
 .logo {
   background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
@@ -25,14 +26,15 @@ header {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
+nav .logo:hover {
+  scale: 1.2;
+  transition-duration: 0.3s;
+  filter: drop-shadow(0 0 10px var(--custom-black));
+}
 nav{
-  width: 100vw;
-  position: fixed;
+  width: 100%;
   display: grid;
   grid-template-columns: 108px 1fr;
-  background-color: rgba(0, 0, 0, 0.372);
-  backdrop-filter: blur(5px);
-  z-index: 10000;
 }
 nav ul {
   width: 100%;
@@ -45,7 +47,7 @@ nav ul {
   margin-block: auto;
 }
 nav a {
-  color: white;
+  color: var(--custom-white);
   font-family: ligurino, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -95,10 +97,10 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   gap: 2rem;
-  background-color: var(--custom-e);
+  background-color: var(--custom-white);
 }
 footer > :first-child {
-  background-color: var(--custom-blue);
+  background-color: var(--custom-black);
 }
 address {
   padding-block: 2rem;

@@ -7,7 +7,8 @@
 body {
   margin: 0;
   background-image: url("assets_mathias/relief_map_final.webp");
-  background-size: cover;
+  background-size:contain;
+  background-attachment: fixed;
 }
 
 /* header {

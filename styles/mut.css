@@ -141,5 +141,9 @@ filter: opacity(50%);
     height: 2rem;
     aspect-ratio: 1/1;
 }
+.logo {
+  min-width: 100px;
+
+}
 
 /* footer */

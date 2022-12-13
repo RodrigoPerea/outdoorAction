@@ -2,48 +2,61 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-  background-color: #378736;
-  margin: 0;
+  background-color: var(--custom-green);
 }
 
 .imgcont > img {
-  max-width: 300px;
-  max-height: 180px;
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
 }
 
 .inspiration {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 2em;
-  justify-content: space-evenly;
-
+  /*   display: flex;
+  flex-flow: row wrap; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2em;
+  row-gap: 3em;
+  /*   justify-content: space-evenly; */
   padding: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
   width: 100vw;
 }
-
+.inspiration > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
 .para1 {
-  max-width: 260px;
-  font-family: articulat-cf, sans-serif;
+  width: 80%;
+  text-align: center;
+  margin-inline: auto;
+  /*   font-family: articulat-cf, sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; */
 }
 
 h3 {
-  max-width: 300px;
+  text-align: center;
+  margin-inline: auto;
+  /*   max-width: 300px; */
   font-family: cheap-pine-sans, sans-serif;
   font-weight: 400;
   font-size: 30px;
   font-style: normal;
-  color: #378736;
+  color: var(--custom-green);
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  color: #fffffa;
+  color: var(--custom-white);
 }
 
 .imgcont2 > img {
@@ -65,7 +78,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 
 .pers-sommerfest > p {
@@ -84,7 +97,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .teltet_bøgekronerne > p {
   font-family: articulat-cf, sans-serif;
@@ -103,7 +116,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .seat_kickoff > p {
   font-family: articulat-cf, sans-serif;
@@ -121,7 +134,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .fødselsdag > p {
   font-family: articulat-cf, sans-serif;
@@ -139,7 +152,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .nordea > p {
   font-family: articulat-cf, sans-serif;
@@ -156,7 +169,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .polterabend > p {
   font-family: articulat-cf, sans-serif;
@@ -173,7 +186,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
 }
 .ftz > p {
   font-family: articulat-cf, sans-serif;
@@ -190,7 +203,7 @@ h2 {
   justify-content: space-evenly;
   padding-top: 5em;
   margin-bottom: 1em;
-  background-color: #fffffa;
+  background-color: var(--custom-white);
   padding-bottom: 3em;
 }
 .event > p {
@@ -202,22 +215,24 @@ h2 {
 }
 
 button {
-  background-color: #378736;
+  background-color: var(--custom-green);
   border: none;
+  /*   position:relative; */
   padding: 15px 25px;
   text-align: center;
-  display: inline-block;
-  justify-content: center;
-  font-size: 16px;
-  margin: 2em;
-  cursor: pointer;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: auto;
+  /*   display: inline-block; */
+  /*   justify-content: center; */
+  /*   font-size: 16px; */
+  /*  cursor: pointer; */
   border-radius: 15px;
 }
 
 button > a {
   text-decoration: none;
-  color: #fffffa;
-  font-family: articulat-cf, sans-serif;
+  color: var(--custom-white);
 }
 
 video {

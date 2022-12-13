@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="styles/priser.css">
     <link rel="stylesheet" href="styles/mut.css" />
     <link rel="stylesheet" href="https://use.typekit.net/xww7yzu.css" />
+    <link rel="stylesheet" href="priser.js">
     <title>Priser</title>
 </head>
 
 <body>
     <header>
         <nav>
-          <a href="index.html">
-            <div class="logo"></div>
-          </a>
-          <ul>
-            <li><a href="aktiviteter.html">Aktiviteter</a></li>
-            <li><a href="inspiration.html">Inspiration</a></li>
-            <li><a href="priser.html">Priser</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-          </ul>
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+            <ul>
+                <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                <li><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
         </nav>
-      </header>
+    </header>
 
     <h1>Priser</h1>
     <h4>
@@ -35,7 +36,7 @@
     <!-- priser privat -->
     <div class="container">
 
-        <h2 class="headlinetext">Priser privat</h2>
+        <h2 class="headlinetext">Priser privat <small class="nb">(ink. moms, ekslusiv drikkevare)</small></h2>
         <p class="undertekst-pris">Man skal være fyldt min. 16 år for at køre alene på vores ATV'er. <br> Børn i følge
             med voksne skal være
             fyldt
@@ -52,8 +53,12 @@
                     <li>
                         80 minnutter
                     </li>
+                    <li>1-7 prs.</li>
+                    <li>Book online</li>
                 </ul>
-                <button>book din billet</button>
+                <button onclick="location.href='http://place2book.com/da/sw2/sales/event_list/EM9106'"
+                    type="button">Ledige tider &
+                    booking</button>
             </div>
             <div class="pris-col">
                 <p>ATV Gruppebillet</p>
@@ -62,7 +67,9 @@
                     <li>minimum 4 personer</li>
                     <li>80 minnutter</li>
                 </ul>
-                <button>book din billet</button>
+                <button onclick="location.href='http://place2book.com/da/sw2/sales/event_list/EM9106'"
+                    type="button">Ledige tider &
+                    booking</button>
             </div>
             <div class="pris-col">
                 <p>ATV passagerbillet</p>
@@ -73,7 +80,9 @@
                         købes som enkeltstående
                         billet</li>
                 </ul>
-                <button>book din billet</button>
+                <button onclick="location.href='http://place2book.com/da/sw2/sales/event_list/EM9106'"
+                    type="button">Ledige tider &
+                    booking</button>
             </div>
             <div class="pris-col">
                 <p>ATV passagerbillet</p>
@@ -84,7 +93,9 @@
                         enkeltstående
                         billet</li>
                 </ul>
-                <button>book din billet</button>
+                <button onclick="location.href='http://place2book.com/da/sw2/sales/event_list/EM9106'"
+                    type="button">Ledige tider &
+                    booking</button>
             </div>
             <div class="pris-col">
                 <p>Compound Bueskydning</p>
@@ -94,7 +105,7 @@
                     <li>30 minutter</li>
                     <li>Kun som tilkøb til ATV Safari</li>
                 </ul>
-                <button>book din billet</button>
+                <button onclick="location.href='kontakt.html'" type="button">Få et tilbud</button>
             </div>
             <div class="pris-col">
                 <p>Øksekast</p>
@@ -105,27 +116,25 @@
                     <li>Kun som tilkøb til ATV Safari</li>
 
                 </ul>
-                <button>book din billet</button>
+
+                <button onclick="location.href='kontakt.html'" type="button">Få et tilbud</button>
             </div>
 
 
 
 
         </div>
-        <div class="exstra">
-            <p class="nb">*Bemærk priserneer inklusiv moms
-                <br>*Drikkevarer kan tilkøbes (Øl/vand)
 
-            </p>
-        </div>
-        <a href="http://place2book.com/da/sw2/sales/event_list/EM9106"> <button class="test1"> ATV Safari(1-7prs.)
-                <br>se ledige
-                tider</button></a>
     </div>
+
+    <a href="http://place2book.com/da/sw2/sales/event_list/EM9106"> <button class="test1"> ATV Safari(1-7prs.)
+            <br>se ledige
+            tider</button></a>
+
     <!-- priser grupper -->
 
     <div class="container">
-        <h2 class="headlinetext">Priser grupper</h2>
+        <h2 class="headlinetext">Priser grupper <small class="nb">(ink. moms, ekslusiv drikkevare)</small></h2>
         <p class="undertekst-pris">Det er ikke muligt at booke til gruppeaktiviteter under 10 personer.</p>
         <div class=" priser-row">
             <div class="pris-col">
@@ -141,7 +150,27 @@
                     <li>ATV ikke muligt i denne pakke</li>
                 </ul>
 
-                <button>book din billet</button>
+                <button type="button" class="læs-mere" onclick="openPopup1()">Få et tilbud</button>
+
+                <div class="kontaktPopOp" id="kontakt-pop-op">
+                    <button type="button" class="luk" onclick="closePopup1()">&times;</button>
+                    <h1>ATV kørsel på Sjælland</h1>
+                    <div class="popup-grid">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum reprehenderit repellat
+                            doloribus ex eligendi accusantium, sapiente nesciunt officia laborum eum non explicabo
+                            deleniti distinctio error tempora aliquam labore! Porro!</p>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
             </div>
             <div class="pris-col">
                 <p>3 aktiviteter 3 TIMERS EVENT</p>
@@ -184,19 +213,16 @@
                 <button>book din billet</button>
             </div>
         </div>
-        <div class="exstra">
-            <p class="nb">*Bemærk priserneer inklusiv moms
-                <br>*Drikkevarer kan tilkøbes (Øl/vand)
 
-            </p>
-        </div>
+    </div>
     </div>
 
 
     <!-- priser erhver -->
     <div class="container">
 
-        <h2 class="headlinetext">Priser erhverv</h2>
+        <h2 class="headlinetext">Priser erhverv <small class="nb">(eksklusiv. moms & drikkevare)</small>
+        </h2>
         <p class="undertekst-pris">Bemærk at alle priser er eksklusiv moms. </p>
         <div class="priser-row">
             <div class="pris-col">
@@ -237,63 +263,61 @@
                 <button>book din billet</button>
             </div>
         </div>
-        <div class="exstra">
-            <p class="nb">*Bemærk at alle priser er eksklusiv moms
-                <br>*Drikkevarer kan tilkøbes (Øl/vand)
+
+    </div>
+
+
+    <footer>
+        <div class="logo"></div>
+
+        <div>
+            <address>
+                <a href="mailto:hej@outdooraction.dk">
+                    <p>hej@outdooraction.dk</p>
+                </a> <br />
+                <br />
+
+                <a href="">
+                    <p>Vis telefonnummer klik her</p>
+                </a> <br />
+                <br />
+                <a
+                    href="https://www.google.com/maps/place/Outdoor+Action+Sj%C3%A6lland/@55.6017197,11.8361139,19.25z/data=!4m13!1m7!3m6!1s0x4652884f0ffd0aa1:0x166137cfe586a5e6!2zVMO4bGzDuHNldmVqIDUzLCA0MzMwIEh2YWxzw7g!3b1!8m2!3d55.6020121!4d11.8361658!3m4!1s0x465289a236a4fa7b:0xd430cd42e9df0d9d!8m2!3d55.6019585!4d11.8361499">
+                    <p>Find Vej</p>
+                </a>
+                <br />
+                <p>
+                    Tølløsevej 53 <br />
+                    4330 Hvalsø
+                </p>
+            </address>
+
+
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <p>FAQ</p>
+                </li>
+                <li>
+                    <p>Priser</p>
+                </li>
+                <li>
+                    <p>Privatlivspolitik</p>
+                </li>
+                <li>
+                    <p>Om Os</p>
+                </li>
+            </ul>
+            <div id="some_icons">
+                <div id="ig_icon"><img src="billeder/ig_icon.svg" alt=""></div>
+                <div id="fb_icon"><img src="billeder/fb_icon.svg" alt=""></div>
+            </div>
         </div>
 
 
-        <footer>
-            <div class="logo"></div>
 
-            <div>
-                <address>
-                    <a href="mailto:hej@outdooraction.dk">
-                        <p>hej@outdooraction.dk</p>
-                    </a> <br />
-                    <br />
-
-                    <a href="">
-                        <p>Vis telefonnummer klik her</p>
-                    </a> <br />
-                    <br />
-                    <a
-                        href="https://www.google.com/maps/place/Outdoor+Action+Sj%C3%A6lland/@55.6017197,11.8361139,19.25z/data=!4m13!1m7!3m6!1s0x4652884f0ffd0aa1:0x166137cfe586a5e6!2zVMO4bGzDuHNldmVqIDUzLCA0MzMwIEh2YWxzw7g!3b1!8m2!3d55.6020121!4d11.8361658!3m4!1s0x465289a236a4fa7b:0xd430cd42e9df0d9d!8m2!3d55.6019585!4d11.8361499">
-                        <p>Find Vej</p>
-                    </a>
-                    <br />
-                    <p>
-                        Tølløsevej 53 <br />
-                        4330 Hvalsø
-                    </p>
-                </address>
-
-
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <p>FAQ</p>
-                    </li>
-                    <li>
-                        <p>Priser</p>
-                    </li>
-                    <li>
-                        <p>Privatlivspolitik</p>
-                    </li>
-                    <li>
-                        <p>Om Os</p>
-                    </li>
-                </ul>
-                <div id="some_icons">
-                    <div id="ig_icon"><img src="billeder/ig_icon.svg" alt=""></div>
-                    <div id="fb_icon"><img src="billeder/fb_icon.svg" alt=""></div>
-                </div>
-            </div>
-
-
-
-        </footer>
+    </footer>
 </body>
 
 </html>

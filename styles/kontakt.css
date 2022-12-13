@@ -92,13 +92,16 @@ tr td {
   padding-top: 15px;
   color: white;
 }
+.mellemrum {
+  margin-bottom: 20px;
+}
 
 /* om sektionen */
 
 .om-sektion {
   display: grid;
   width: 90%;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin: 100px auto 30px auto;
   /* 
@@ -111,7 +114,7 @@ tr td {
 .tekst-om-sektion {
   /*  margin: 0 55px auto; */
   /*  padding-left: 0.4%; */
-  /*  max-width: 65ch; */
+  max-width: 80ch;
 }
 
 /* om side: billede collage */
@@ -160,6 +163,10 @@ img {
   font-style: normal;
   line-height: 1.6rem;
   font-size: 1.2rem;
+}
+.tekst-om-sektion .kontaktinformation-tx {
+  margin-bottom: 50px;
+  text-align: center;
 }
 .linktext-kontakt {
   font-family: ligurino, sans-serif;

@@ -97,20 +97,21 @@ tr td {
 
 .om-sektion {
   display: grid;
-  /* width: 90%; */
+  width: 90%;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  padding-right: 5%;
+  margin: 100px auto 30px auto;
+  /* 
+  padding-right: 5%; */
 }
 .om-head {
   text-align: center;
   margin-top: 50px;
 }
 .tekst-om-sektion {
-  margin: 0 55px auto;
-  padding-left: 0.4%;
+  /*  margin: 0 55px auto; */
+  /*  padding-left: 0.4%; */
+  /*  max-width: 65ch; */
 }
 
 /* om side: billede collage */
@@ -183,4 +184,24 @@ img {
 }
 .tekst-om-sektion p {
   line-height: 1.7rem;
+}
+@media (max-width: 1100px) {
+  main {
+    padding-top: 100px;
+  }
+  .kontakt-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  .om-sektion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  .collage {
+    margin: 30px 20px;
+  }
 }

@@ -11,47 +11,6 @@ background-color: var(--custom-white);
   background-attachment: fixed;
   overflow-x: hidden;
 }
-/* nav */
-/* header {
-  min-height: 108px;
-  background-color: var(--custom-green);
-}
-#nav_logo {
-  background-image: url("https://outdooraction.dk/wp-content/uploads/2019/04/OUTDOOR-e1554133588662.png");
-  background-size: cover;
-  width: 108px;
-  aspect-ratio: 1/1;
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-}
-nav {
-  width: 100vw;
-  position: fixed;
-  display: grid;
-  grid-template-columns: 108px 1fr;
-  background-color: rgba(0, 0, 0, 0.372);
-  backdrop-filter: blur(5px);
-  z-index: 10000;
-}
-ul {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-  list-style: none;
-  margin-block: auto;
-}
-li > a {
-  color: white;
-  font-family: ligurino, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.9rem;
-  text-decoration: none;
-} */
-/* nav */
 /* galleri */
 figcaption {
   z-index: 1000;
@@ -118,8 +77,6 @@ img {
   flex-direction: column;
   gap: 3rem;
   color: var(--custom-black);
-
-
 }
 /* forklarende tekst */
 
@@ -146,6 +103,12 @@ img {
 #forside_aktivitetstyper>div>a{
   color: var(--custom-white);
 text-decoration: none;
+}
+#forside_aktivitetstyper>div>a:hover{
+  scale: 1.03;
+  transition-duration: 0.3s;
+  filter: drop-shadow(0 2px 5px var(--custom-black));
+  z-index: 10;
 }
 /* aktivitetstyper */
 /*Malthe*/

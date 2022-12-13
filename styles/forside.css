@@ -63,7 +63,7 @@ figcaption {
   left: 3rem;
   top: -5rem;
   color: var(--custom-white);
-  filter: drop-shadow(0 0 10px black);
+  filter: drop-shadow(0 0 10px var(--custom-black));
   max-width: fit-content;
 }
 #forside_galleri {
@@ -73,9 +73,9 @@ figcaption {
   grid-template-rows: repeat(2, 1fr);
 }
 #forside_galleri > figure:hover {
-  scale: 1.05;
+  scale: 1.03;
   transition-duration: 0.3s;
-  filter: drop-shadow(0 0 20px black);
+  filter: drop-shadow(0 0 20px var(--custom-black));
   z-index: 10;
 }
 #forside_galleri > figure {

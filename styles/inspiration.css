@@ -188,8 +188,9 @@ h2 {
   gap: 2em;
   justify-content: space-evenly;
   padding-top: 5em;
-  padding-bottom: 5em;
+  margin-bottom: 1em;
   background-color: #fffffa;
+  padding-bottom: 3em;
 }
 .event > p {
   font-family: articulat-cf, sans-serif;

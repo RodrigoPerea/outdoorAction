@@ -1,4 +1,4 @@
-let atvpopup = document.getElementById("kontakt-pop-op");
+let kontaktPopOp = document.getElementById("kontakt-pop-op");
 function openPopup1() {
   kontaktPopOp.classList.add("open-popup");
 }

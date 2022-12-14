@@ -125,4 +125,8 @@ iframe{
   .inspiration {
     grid-template-columns: 1fr;
   }
+  iframe{
+    width: 80vw;
+    aspect-ratio: 16/9;
+  }
 }

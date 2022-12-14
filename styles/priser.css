@@ -90,8 +90,9 @@
 .nb {
   font-size: 14px;
 }
-body h1 {
+h1.headlinetext{
   text-align: center;
+  font-size: 3rem;
 }
 body h4 {
   text-align: center;

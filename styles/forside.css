@@ -113,6 +113,7 @@ text-decoration: none;
 /* aktivitetstyper */
 
 @media(max-width:700px){
+  /* galleri */
   figcaption {
     font-size: 5vw;
     left: 2vw;
@@ -142,5 +143,15 @@ text-decoration: none;
     grid-column: 1 / span 2;
     grid-row: 4 / span 1;
   }
+  /* aktivitetstyper */
+  #forside_aktivitetstyper{
+    grid-template-columns:  1fr;
+    padding-bottom: 5rem;
+    padding-inline: 12.5vw;
+  }
+  #forside_aktivitetstyper>h2{
+    grid-column: 1/ span 1;
+  }
+
 }
 /*Malthe*/

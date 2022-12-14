@@ -60,7 +60,7 @@ label {
   display: block;
   color: black;
 }
-button {
+main button {
   background: green;
   width: 100px;
   border: none;
@@ -153,6 +153,29 @@ img {
   display: block;
   object-fit: cover;
   border-radius: 1rem; */
+}
+.kontakt-aditionel img {
+  padding-top: 50px;
+  width: 500px;
+  height: auto;
+}
+
+/* kontaktformulat knap */
+.call-me {
+  padding: 10px 30px;
+  background: #378736;
+  color: var(--custom-white);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 27px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.call-me:hover {
+  scale: 1.2;
+  transition-duration: 0.3s;
 }
 
 /* fonts og skrift */

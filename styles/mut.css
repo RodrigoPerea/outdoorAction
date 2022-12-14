@@ -14,7 +14,7 @@ html {
 }
 /* menu */
 header {
-  min-height: 108px;
+ height: 108px;
   background-color: var(--custom-green);
   padding-inline: 2rem;
 }
@@ -76,13 +76,13 @@ p {
   font-weight: 500;
   font-style: normal;
   line-height: 1.6rem;
-  font-size: 1.2rem;
+  font-size: 1rem;  
 }
 .bannertext {
   font-family: tripper, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 .linktext {
   font-family: ligurino, sans-serif;
@@ -93,7 +93,7 @@ p {
 font-family: cheddar-gothic-rough, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 1.7vw;
+font-size: 2rem;
 }
 /* fonts */
 
@@ -115,7 +115,7 @@ address > a {
   text-decoration: none;
 }
 address > a > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 footer > :last-child{
@@ -147,3 +147,108 @@ filter: opacity(50%);
 }
 
 /* footer */
+
+@media(max-width:1000px){
+
+  nav ul {
+    flex-direction: column;
+    grid-row: 2 / span 1;
+    text-align: center;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: var(--custom-green);
+    color: var(--custom-white);
+    padding-top: 4rem;
+  }
+  #burgerknap{
+    position: fixed;
+    z-index: 100;
+    height: 3rem;
+    aspect-ratio: 1/1;
+    top: 1.5rem;
+    right: 1.5rem;
+    border: var(--custom-white) solid 4px;
+    border-radius: 1rem;
+    color: var(--custom-white);
+    padding-inline: 7px;
+    background-color: var(--custom-green);
+    cursor: pointer;
+    filter: drop-shadow(0 5px 5px var(--custom-black));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .burger_close{
+    display: none;
+    line-height: 0px;
+    font-size: 3rem;
+  }
+  .rotateminus{
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .fade{opacity: 0;}
+  
+  .rotateplus {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  .vismenu {
+    transform: translateY(0);
+  }  
+  /* Rotate bar */
+
+  .bar{
+    width: 2rem;
+    height: 5px;
+    margin: 6px 0;
+    transition: 0.4s;
+    background-color: var(--custom-white);
+  }
+
+  /* fonts */
+  .headlinetext {
+    font-size: 1.2rem;
+  }
+/*   p {
+    font-size: 1rem;  
+  } */
+  .bannertext {
+
+    font-size: 3rem;
+  }
+
+  .inlinetext{
+
+  font-size: 1rem;
+  }
+  /* footer */
+  footer{
+  grid-template-columns: 1fr;
+}
+
+address {
+  padding: 2rem;
+}
+#some_icons{
+    display: flex;
+gap: 2rem;
+justify-content: center;
+}
+#ig_icon{
+  filter: opacity(50%);
+    height: 2rem;
+    aspect-ratio: 1/1;
+}
+#fb_icon{
+filter: opacity(50%);
+    height: 2rem;
+    aspect-ratio: 1/1;
+}
+}

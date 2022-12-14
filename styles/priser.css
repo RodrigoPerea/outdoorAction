@@ -9,7 +9,7 @@
   display: grid;
   width: 100%;
   min-height: 100vh;
-  background: white;
+  background: var(--custom-white);
 }
 /* .container h2 {
   color: black;
@@ -32,10 +32,10 @@
   padding-top: 60px;
 }
 .pris-col {
-  background: #2c6c2b;
+  background: var(--custom-green);
   padding: 10% 15%;
   border-radius: 10px;
-  color: white;
+  color: var(--custom-white);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -71,13 +71,13 @@
   width: 100%;
   padding: 14px 0;
   background: transparent;
-  color: white;
+  color: var(--custom-white);
   font-size: 15px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--custom-white);
   border-radius: 8px;
   margin-top: 30px;
   cursor: pointer;
-  transition: background 0.5s;
+  transition: 0.5s;
   font-size: 19px;
   font-weight: bold;
   margin-top: auto;
@@ -162,7 +162,7 @@ a {
   top: 16%;
   left: 8%;
   background-color: var(--custom-green);
-  color: var(--custom-white);
+  color: var(--custom-var(--custom-white));
   box-shadow:  0 0px 20px 0 var(--custom-black);
   transform: scale(0.1);
   transition: 0.1s;
@@ -175,7 +175,7 @@ a {
   text-align: center;
   font-weight: 900;
   font-size: 50px;
-  color: var(--custom-white);
+  color: var(--custom-var(--custom-white));
   font-family: tripper, sans-serif;
   
 }
@@ -201,7 +201,7 @@ a {
 .læs-mere {
   padding: 10px 30px;
   background: #378736;
-  color: var(--custom-white);
+  color: var(--custom-var(--custom-white));
   border: 0;
   outline: none;
   cursor: pointer;
@@ -227,7 +227,7 @@ a {
   border-radius: 20px;
   cursor: pointer;
   font-size: 30px;
-  color: var(--custom-white);
+  color: var(--custom-var(--custom-white));
 }
 .luk:hover {
   scale: 1.2;

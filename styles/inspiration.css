@@ -91,7 +91,7 @@ padding: 0;
 }
 /* inlines */
 
-button {
+main button {
   background-color: var(--custom-green);
   border: none;
   /*   position:relative; */
@@ -124,5 +124,9 @@ iframe{
 @media (max-width: 1100px) {
   .inspiration {
     grid-template-columns: 1fr;
+  }
+  iframe{
+    width: 80vw;
+    aspect-ratio: 16/9;
   }
 }

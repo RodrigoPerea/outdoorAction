@@ -25,10 +25,18 @@
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="faq.html">FAQ</a></li>
       </ul>
+      <button id="burgerknap">
+        <div class="burger_open">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <i class="burger_close"></i>
+      </button>
     </nav>
   </header>
 
-  <h1>Priser</h1>
+  <h1 class="headlinetext">Priser</h1>
   <h4>
     Vi tilbyder selvfølgelig alskens andre kombinationer af aktiviteter, mad og drikke. <br />
     Fortæl os om jeres behov når I ringer, og så finder vi sammen frem til den perfekte action-oplevelse for dig og dine
@@ -45,7 +53,7 @@
     <div class="priser-row">
       <div class="pris-col">
         <p>ATV Safari</p>
-        <h3>795,- kr. <span>pr. person</span></h3>
+        <h3 class="headlinetext">795,- kr. <span>pr. person</span></h3>
         <ul>
           <li>Enkelt Billet</li>
           <li>80 minnutter</li>
@@ -57,7 +65,7 @@
       </div>
       <div class="pris-col">
         <p>ATV Gruppebillet</p>
-        <h3>675,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">675,- kr<span>pr. person</span></h3>
         <ul>
           <li>minimum 4 personer</li>
           <li>80 minnutter</li>
@@ -67,7 +75,7 @@
       </div>
       <div class="pris-col">
         <p>ATV passagerbillet</p>
-        <h3>295,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">295,- kr<span>pr. person</span></h3>
         <ul>
           <li>Barn (6-15 år)</li>
           <li>Passagerbilletter kan kun tilkøbes som tillægsbillet og kan derfor ikke købes som enkeltstående billet
@@ -78,7 +86,7 @@
       </div>
       <div class="pris-col">
         <p>ATV passagerbillet</p>
-        <h3>465,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">465,- kr<span>pr. person</span></h3>
         <ul>
           <li>Voksen (+16 år)</li>
           <li>Passagerbilletter kan kun tilkøbes som tillægsbillet og kan derfor ikke købes som enkeltstående billet
@@ -89,7 +97,7 @@
       </div>
       <div class="pris-col">
         <p>Compound Bueskydning</p>
-        <h3>575,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">575,- kr<span>pr. person</span></h3>
         <ul>
           <li>Hele gruppen</li>
           <li>30 minutter</li>
@@ -99,7 +107,7 @@
       </div>
       <div class="pris-col">
         <p>Øksekast</p>
-        <h3>525,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">525,- kr<span>pr. person</span></h3>
         <ul>
           <li>Hele gruppen</li>
           <li>30 minutter</li>
@@ -118,7 +126,7 @@
     <div class="priser-row">
       <div class="pris-col">
         <p>2 aktiviteter 2 TIMERS EVENT</p>
-        <h3>600,- kr. <span>pr. person</span></h3>
+        <h3 class="headlinetext">600,- kr. <span>pr. person</span></h3>
         <p>vælg imellem</p>
         <ul>
           <li>Compound bueskydning</li>
@@ -138,37 +146,37 @@
               corrupti! Doloribus natus itaque ipsam dicta culpa tempore possimus officia unde
               nihil! Adipisci, officiis illo.
             </p>
-            <form>
-              <div class="input-row">
-                <div class="input-gruppe">
-                  <label class="p-elementer-kontakt">Navn</label>
-                  <input class="p-elementer-kontakt" type="text" placeholder="Skriv dit navn" />
-                </div>
-                <div class="input-gruppe">
-                  <label class="p-elementer-kontakt"> Telefon</label>
-                  <input class="p-elementer-kontakt" type="tel" placeholder="+45" />
-                </div>
-              </div>
-              <div class="input-row">
-                <div class="input-gruppe">
-                  <label class="p-elementer-kontakt"> Email</label>
-                  <input class="p-elementer-kontakt" type="email" placeholder="mail@xx.dk" />
-                </div>
-                <div class="input-gruppe">
-                  <label class="p-elementer-kontakt"> Antal deltagere</label>
-                  <input class="p-elementer-kontakt" type="number" placeholder="vælg" />
-                </div>
-              </div>
-              <label class="p-elementer-kontakt">Besked</label>
-              <textarea class="p-elementer-kontakt" rows="5" placeholder=" Dine beksed"></textarea>
-              <button type="submit">Ring mig op</button>
-            </form>
+            <!--  <form>
+                            <div class="input-row">
+                                <div class="input-gruppe">
+                                    <label class="p-elementer-kontakt">Navn</label>
+                                    <input class="p-elementer-kontakt" type="text" placeholder="Skriv dit navn" />
+                                </div>
+                                <div class="input-gruppe">
+                                    <label class="p-elementer-kontakt"> Telefon</label>
+                                    <input class="p-elementer-kontakt" type="tel" placeholder="+45" />
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-gruppe">
+                                    <label class="p-elementer-kontakt"> Email</label>
+                                    <input class="p-elementer-kontakt" type="email" placeholder="mail@xx.dk" />
+                                </div>
+                                <div class="input-gruppe">
+                                    <label class="p-elementer-kontakt"> Antal deltagere</label>
+                                    <input class="p-elementer-kontakt" type="number" placeholder="vælg" />
+                                </div>
+                            </div>
+                            <label class="p-elementer-kontakt">Besked</label>
+                            <textarea class="p-elementer-kontakt" rows="5" placeholder=" Dine beksed"></textarea>
+                            <button type="submit">Ring mig op</button>
+                        </form> -->
           </div>
         </div>
       </div>
       <div class="pris-col">
         <p>3 aktiviteter 3 TIMERS EVENT</p>
-        <h3>675,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">675,- kr<span>pr. person</span></h3>
         <p>vælg imellem</p>
         <ul>
           <li>Compound bueskydning</li>
@@ -183,7 +191,7 @@
       </div>
       <div class="pris-col">
         <p>4 aktiviteter 3 TIMERS EVENT</p>
-        <h3>900,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">900,- kr<span>pr. person</span></h3>
 
         <p>vælg imellem</p>
         <ul>
@@ -199,7 +207,7 @@
       </div>
       <div class="pris-col">
         <p>Bow combat 80 MIN</p>
-        <h3>400,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">400,- kr<span>pr. person</span></h3>
         <ul>
           <li></li>
           <li></li>
@@ -216,7 +224,7 @@
     <div class="priser-row">
       <div class="pris-col">
         <p>1,5 timers valgfri aktiviteter</p>
-        <h3>645,- kr. <span>pr. person</span></h3>
+        <h3 class="headlinetext">645,- kr. <span>pr. person</span></h3>
         <ul>
           <li>minimum 8 personer</li>
           <li>F.eks. ATV og Bueskydning</li>
@@ -225,7 +233,7 @@
       </div>
       <div class="pris-col">
         <p>2 timers valgfrie aktiviteter</p>
-        <h3>745,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">745,- kr<span>pr. person</span></h3>
         <ul>
           <li>minimum 8 personer</li>
           <li>F.eks. ATV, Segway og Bueskydning.</li>
@@ -234,7 +242,7 @@
       </div>
       <div class="pris-col">
         <p>3 timers valgfrie aktiviteter</p>
-        <h3>845,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">845,- kr<span>pr. person</span></h3>
         <ul>
           <li>minimum 10 personer</li>
           <li>F.eks. ATV, Øksekast og Bow Combat.</li>
@@ -244,7 +252,7 @@
       </div>
       <div class="pris-col">
         <p>4 timers valgfrie aktiviteter</p>
-        <h3>945,- kr<span>pr. person</span></h3>
+        <h3 class="headlinetext">945,- kr<span>pr. person</span></h3>
         <ul>
           <li>minimum 10 personer</li>
           <li>F.eks. ATV, Øksekast og Bow Combat.</li>
@@ -302,6 +310,7 @@
       </div>
     </div>
   </footer>
+  <script src="burgermenu.js"></script>
   <script src="priser.js"></script>
 </body>
 

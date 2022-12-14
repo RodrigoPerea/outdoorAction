@@ -161,8 +161,9 @@ a {
   position: fixed;
   top: 16%;
   left: 8%;
-  background-color: #1cee2a;
+  background-color: var(--custom-green);
   color: var(--custom-white);
+  box-shadow:  0 0px 20px 0 var(--custom-black);
   transform: scale(0.1);
   transition: 0.1s;
   visibility: hidden;
@@ -176,6 +177,7 @@ a {
   font-size: 50px;
   color: var(--custom-white);
   font-family: tripper, sans-serif;
+  
 }
 
 .open-popup {
@@ -212,22 +214,20 @@ a {
   scale: 1.2;
   transition-duration: 0.3s;
 }
-.luk {
+.kontaktPopOp>.luk {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 1vw;
+  right: 1vw;
   width: 40px;
-  height: 40px;
-  padding-left: 5px;
-  padding-right: 5px;
-  background: #405a80;
+  aspect-ratio: 1/1;
+  background: var(--custom-green);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  line-height: 15px;
+  line-height: 0px;
   border-radius: 20px;
   cursor: pointer;
   font-size: 30px;
-  color: darkblue;
+  color: var(--custom-white);
 }
 .luk:hover {
   scale: 1.2;

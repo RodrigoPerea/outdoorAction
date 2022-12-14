@@ -78,6 +78,8 @@ img {
   transition: transform 0.3s;
 backdrop-filter: brightness(30%);
   z-index: 99; 
+  display: flex;
+  justify-content: center;
 }
 .vis_banner{
   transform: translateY(0);
@@ -103,7 +105,11 @@ justify-content: center;
 .banner_close span{
   margin-inline: auto;
 }
-
+.julefrokost_banner video{
+  position: relative;
+  width: 60vw;
+  aspect-ratio: 16/9;
+}
 /* galleri */
 
 /* forklarende text */

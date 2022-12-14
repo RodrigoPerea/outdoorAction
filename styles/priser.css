@@ -163,7 +163,7 @@ a {
   top: 16%;
   left: 8%;
   background-color: var(--custom-green);
-  color: var(--custom-var(--custom-white));
+  color: var(--custom-white);
   box-shadow:  0 0px 20px 0 var(--custom-black);
   transform: scale(0.1);
   transition: 0.1s;
@@ -176,7 +176,7 @@ a {
   text-align: center;
   font-weight: 900;
   font-size: 50px;
-  color: var(--custom-var(--custom-white));
+  color: var(--custom-white);
   font-family: tripper, sans-serif;
   
 }
@@ -202,7 +202,7 @@ a {
 .læs-mere {
   padding: 10px 30px;
   background: #378736;
-  color: var(--custom-var(--custom-white));
+  color: var(--custom-white);
   border: 0;
   outline: none;
   cursor: pointer;
@@ -228,7 +228,7 @@ a {
   border-radius: 20px;
   cursor: pointer;
   font-size: 30px;
-  color: var(--custom-var(--custom-white));
+  color: var(--custom-white);
 }
 .luk:hover {
   scale: 1.2;

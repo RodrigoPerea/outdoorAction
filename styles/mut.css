@@ -76,13 +76,13 @@ p {
   font-weight: 500;
   font-style: normal;
   line-height: 1.6rem;
-  font-size: 1.2rem;
+  font-size: 1.2rem;  
 }
 .bannertext {
   font-family: tripper, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 .linktext {
   font-family: ligurino, sans-serif;
@@ -115,7 +115,7 @@ address > a {
   text-decoration: none;
 }
 address > a > p {
-  font-size: 1.2rem;
+  font-size: 1vw;
   font-weight: 500;
 }
 footer > :last-child{

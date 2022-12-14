@@ -91,7 +91,7 @@ padding: 0;
 }
 /* inlines */
 
-button {
+main button {
   background-color: var(--custom-green);
   border: none;
   /*   position:relative; */

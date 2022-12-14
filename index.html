@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="styls/mut.css" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="https://use.typekit.net/xww7yzu.css" />
     <link rel="stylesheet" href="styles/forside.css" />
@@ -38,6 +37,7 @@
     </header>
     <main>
       <div id="forside_galleri">
+                  <div class="julefrokost_banner"><button class="banner_close" onclick="julefrokost_popup()"><span>&times;</span></button><video id="julefrokost_video" src="assets_malte/julefrokost_video.webm" controls></video></div>
         <figure id="atv_safari_billede">
           <a href=""><img src="assets_malte/atv_safari.webp" alt="" /></a>
           <figcaption>ATV Safari</figcaption>
@@ -47,7 +47,8 @@
           <figcaption>Rapelling</figcaption>
         </figure>
         <figure id="julefrokost_billede">
-          <a href=""><img src="assets_malte/julefrokost.webp" alt="" /></a>
+          <a onclick="julefrokost_popup()"><img src="assets_malte/julefrokost.webp" alt="" /></a>
+
           <figcaption>Julefrokost</figcaption>
         </figure>
         <figure id="sommerfest_billede">
@@ -150,6 +151,7 @@
         </div>
       </div>
     </footer>
+    <script src="julefrokost_popup.js"></script>
     <script src="login.js"></script>
     <script src="burgermenu.js"></script>
   </body>

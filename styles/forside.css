@@ -66,6 +66,44 @@ img {
   grid-column: 2 / span 2;
   grid-row: 2 / span 1;
 }
+
+.julefrokost_banner{
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+backdrop-filter: brightness(30%);
+  z-index: 99; 
+}
+.vis_banner{
+  transform: translateY(0);
+}
+.banner_close{
+  z-index: 100;
+  position: fixed;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  top: 1.5rem;
+  right: 1.5rem;
+  border: var(--custom-white) solid 4px;
+  border-radius: 1rem;
+  color: var(--custom-white);
+  background-color: var(--custom-green);
+  cursor: pointer;
+  filter: drop-shadow(0 5px 5px var(--custom-black));
+font-size: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.banner_close span{
+  margin-inline: auto;
+}
+
 /* galleri */
 
 /* forklarende text */

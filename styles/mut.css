@@ -76,7 +76,7 @@ p {
   font-weight: 500;
   font-style: normal;
   line-height: 1.6rem;
-  font-size: 1.2rem;  
+  font-size: 1rem;  
 }
 .bannertext {
   font-family: tripper, sans-serif;
@@ -93,7 +93,7 @@ p {
 font-family: cheddar-gothic-rough, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 1.7vw;
+font-size: 2rem;
 }
 /* fonts */
 
@@ -115,7 +115,7 @@ address > a {
   text-decoration: none;
 }
 address > a > p {
-  font-size: 1vw;
+  font-size: 1rem;
   font-weight: 500;
 }
 footer > :last-child{
@@ -189,22 +189,13 @@ filter: opacity(50%);
   /* Fade out the second bar */
   .fade{opacity: 0;}
   
-  /* Rotate last bar */
   .rotateplus {
     transform: translate(0, -11px) rotate(45deg);
   }
   .vismenu {
     transform: translateY(0);
-  }
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  /* Rotate first bar */
+  }  
+  /* Rotate bar */
 
   .bar{
     width: 35px;
@@ -212,5 +203,22 @@ filter: opacity(50%);
     margin: 6px 0;
     transition: 0.4s;
     background-color: var(--custom-white);
+  }
+
+  /* fonts */
+  .headlinetext {
+    font-size: 1.2rem;
+  }
+/*   p {
+    font-size: 1rem;  
+  } */
+  .bannertext {
+
+    font-size: 3rem;
+  }
+
+  .inlinetext{
+
+  font-size: 1rem;
   }
 }

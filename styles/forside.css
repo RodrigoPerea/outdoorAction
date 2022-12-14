@@ -147,7 +147,7 @@ text-decoration: none;
   #forside_aktivitetstyper{
     grid-template-columns:  1fr;
     padding-bottom: 5rem;
-    padding-inline: 12.5vw;
+    padding-inline: 8vw;
   }
   #forside_aktivitetstyper>h2{
     grid-column: 1/ span 1;

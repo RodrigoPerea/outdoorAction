@@ -82,8 +82,10 @@ body {
   transition: 0.1s;
   visibility: hidden;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   z-index: 50;
+  display: flex;
+  flex-wrap: wrap;
 }
 .atvpopup,
 .bowpopup,
